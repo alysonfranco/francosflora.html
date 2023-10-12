@@ -17,15 +17,15 @@
 
 <body>
     <!-- navigation bar -->
-    <nav id="nav-bar">
+    <nav>
         <div class="nav-bar container">
-            <div>
-                <h1 class="logo"><a href="index.html">Franco's Flora</a></h1>
+            <div class="logo">
+                <h1><a href="index.html">Franco's Flora</a></h1>
             </div>
-            <div class="nav-toggle" aria-label="toggle navigation">
+            <button class="nav-toggle" aria-label="toggle navigation" onclick="toggleNav();">
                 <i class="fa-solid fa-bars toggle"></i>
-            </div>
-            <div class="nav-items">
+            </button>
+            <div id="nav" class="nav-links">
                 <a class="nav-link" href="index.html#about">About</a>
                 <a class="nav-link" href="myplants.html">My Plants</a>
                 <a class="nav-link" href="plantcare.html">Plant Care</a>
@@ -35,19 +35,40 @@
     </nav>
     <!-- /navigation bar -->
 
-    <section id="plantcare">
-        <div class="plantcare">
-            idk if i want to add my plants along with plant care or just have a separtae webpage
+    <!-- plant care header -->
+    <section id="blog-posts" class="">
+        <div class="container blog-posts">
+            <h2 class="section-header">Plant Care</h2>
+            <p class="subtitle">Stay tuned for some plant care tips.</p>
+            <!-- <div class="blurb">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit dicta reiciendis? Quas,
+                    perspiciatis dolor provident excepturi, maxime distinctio animi voluptatum debitis saepe repudiandae
+                    aperiam delectus ea. Vel, ea fuga?
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit dicta reiciendis? Quas,
+                    perspiciatis dolor provident excepturi, maxime distinctio animi voluptatum debitis saepe repudiandae
+                    aperiam delectus ea. Vel, ea fuga?
+                </p>
+            </div> -->
         </div>
     </section>
+    <!-- /plant care header -->
 
     <!-- footer -->
     <footer id="footer">
         <div class="container">
             <h3>Follow me for more:</h3>
-            <ul class="socials">
-                <li>social media</li>
-            </ul>
+            <div class="socials">
+                <span>
+                    <a class="important" href="https://www.instagram.com/francos.flora/" target="_blank"><i
+                            class="social-icon fa-brands fa-instagram"></i></a>
+                </span>
+            </div>
+            <div class="">
+                <span class="copyright"><small>&copy;2023 Franco's Flora</small></span>
+            </div>
             <p>please leave me feedback: link goes here or something</p>
         </div>
     </footer>

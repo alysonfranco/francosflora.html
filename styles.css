@@ -68,6 +68,12 @@ section {
   padding: 3rem 1rem;
 }
 
+header {
+  width: 100%;
+  padding: 3rem 1rem;
+  /* margin: auto 0; */
+}
+
 a,
 a:visited {
   color: inherit;
